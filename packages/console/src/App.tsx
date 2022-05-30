@@ -23,6 +23,7 @@ import GetStarted from './pages/GetStarted';
 import NotFound from './pages/NotFound';
 import Settings from './pages/Settings';
 import SignInExperience from './pages/SignInExperience';
+import SignOut from './pages/SignOut';
 import UserDetails from './pages/UserDetails';
 import Users from './pages/Users';
 import { getBasename } from './utilities/app';
@@ -38,6 +39,7 @@ const Main = () => {
         <Toast />
         <Routes>
           <Route path="callback" element={<Callback />} />
+          <Route path="sign-out" element={<SignOut />} />
           <Route element={<AppContent />}>
             <Route path="*" element={<NotFound />} />
             <Route path="get-started" element={<GetStarted />} />
