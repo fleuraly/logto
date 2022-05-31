@@ -517,6 +517,14 @@ const translation = {
       appearance_dark: 'Dark mode',
       saved: 'Saved!',
     },
+    logs: {
+      title: 'Audit Logs',
+      subtitle: 'View log data of authentication events made by your admin and users.',
+      event: 'Event',
+      user: 'User',
+      application: 'Application',
+      time: 'Time',
+    },
     session_expired: {
       title: 'Session Expired',
       subtitle:
